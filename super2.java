@@ -8,7 +8,7 @@ class A
 }
 class B extends A
 {
-    B()
+    B() /* in case of default constructor it is not necessary to write super */
     {
        super(); /* if we do not write super then it will automatically taken as super */
        System.out.println("Hello Learner");
